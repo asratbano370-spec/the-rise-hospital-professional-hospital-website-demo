@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Rise Hospital | Purani Poonch</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f6fbfd;color:#163042}
+a{text-decoration:none}
+.topbar{background:#073b66;color:#fff;text-align:center;padding:9px 15px;font-size:13px;letter-spacing:.4px}
+nav{height:76px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:sticky;top:0;z-index:20;box-shadow:0 4px 20px rgba(10,55,80,.08)}
+.logo{font-size:24px;font-weight:800;color:#073b66}
+.logo b{color:#18a878}
+.navlink{background:#087db8;color:#fff;padding:11px 20px;border-radius:30px;font-size:14px;font-weight:700}
+.hero{min-height:650px;padding:70px 7%;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;background:linear-gradient(135deg,#eaf8ff 0%,#f7fffb 100%)}
+.eyebrow{display:inline-block;background:#dff6ed;color:#087c5b;border-radius:30px;padding:8px 14px;font-weight:700;font-size:12px;margin-bottom:18px}
+h1{font-size:clamp(42px,6vw,72px);line-height:.98;color:#073b66;margin-bottom:20px;text-transform:capitalize}
+.hero p{font-size:20px;color:#617481;margin-bottom:20px}
+.rating{display:inline-flex;align-items:center;gap:10px;background:#fff;border-radius:14px;padding:10px 14px;box-shadow:0 10px 30px rgba(0,60,90,.1);margin-bottom:25px}
+.rating strong{font-size:15px}
+.star{background:#159447;color:#fff;border-radius:8px;padding:5px 9px;font-weight:800}
+.heroBtns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 20px;border-radius:30px;font-weight:700;font-size:14px}
+.btn.primary{background:#087db8;color:#fff}
+.btn.light{background:#fff;color:#087db8;border:1px solid #cde1ea}
+.heroImg{position:relative}
+.heroImg img{width:100%;height:470px;object-fit:cover;border-radius:32px;box-shadow:0 25px 55px rgba(0,45,70,.2)}
+.floatCard{position:absolute;left:-22px;bottom:25px;background:#fff;border-radius:17px;padding:15px 18px;box-shadow:0 15px 35px rgba(0,45,70,.16);font-size:13px}
+.floatCard b{display:block;color:#087db8;font-size:16px;margin-bottom:2px}
+.section{padding:75px 7%}
+.heading{text-align:center;margin-bottom:40px}
+.heading h2{font-size:37px;color:#073b66;margin-bottom:8px}
+.heading p{color:#6c7e89}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:23px}
+.card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 12px 35px rgba(8,55,80,.08);border:1px solid #e5eef2}
+.card img{width:100%;height:210px;object-fit:cover}
+.cardBody{padding:22px}
+.cardBody h3{color:#087db8;margin-bottom:8px;font-size:20px}
+.cardBody p{color:#667983;font-size:14px}
+.about{background:#073b66;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about img{width:100%;height:360px;object-fit:cover;border-radius:25px}
+.about h2{font-size:38px;margin-bottom:15px}
+.about p{color:#d9eaf3;margin-bottom:20px}
+.location{padding:65px 7%}
+.locationBox{background:#fff;border-radius:25px;padding:32px;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center;box-shadow:0 12px 35px rgba(8,55,80,.08);border:1px solid #e5eef2}
+.locationBox h2{color:#073b66;margin-bottom:8px}
+.locationBox p{color:#637682;max-width:650px}
+.mapbtn{background:#18a878;color:#fff;padding:13px 21px;border-radius:28px;font-weight:700;white-space:nowrap}
+footer{background:#062f51;color:#d6e5ee;text-align:center;padding:25px;font-size:13px}
+@media(max-width:850px){
+ nav{padding:0 5%}.hero{grid-template-columns:1fr;padding:48px 5%;gap:35px}
+ .heroImg img{height:360px}.floatCard{left:12px}.cards,.about{grid-template-columns:1fr}
+ .section,.location{padding:55px 5%}.about img{height:280px}.locationBox{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">THE RISE HOSPITAL • PURANI POONCH, POONCH</div>
+
+<nav>
+  <div class="logo">the rise <b>hospital</b></div>
+  <a class="navlink" href="#location">view location</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <span class="eyebrow">HOSPITALS • PURANI POONCH</span>
+    <h1>the rise<br>hospital</h1>
+    <p>Purani Poonch, Poonch</p>
+    <div class="rating"><span class="star">4.6 ★</span><strong>27 ratings</strong></div>
+    <div class="heroBtns">
+      <a class="btn primary" href="#location">find the hospital</a>
+      <a class="btn light" href="#about">explore website</a>
+    </div>
+  </div>
+
+  <div class="heroImg">
+    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=85" alt="hospital exterior">
+    <div class="floatCard"><b>the rise hospital</b>purani poonch, poonch</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="heading">
+    <h2>a professional hospital presence</h2>
+    <p>clean design, strong visuals and easy-to-read information.</p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=900&q=85" alt="hospital interior">
+      <div class="cardBody">
+        <h3>modern hospital look</h3>
+        <p>A polished visual style that creates a professional first impression online.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85" alt="medical professional">
+      <div class="cardBody">
+        <h3>healthcare focused design</h3>
+        <p>Medical-themed visuals and spacious sections keep the website welcoming and clear.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=85" alt="hospital corridor">
+      <div class="cardBody">
+        <h3>easy on mobile</h3>
+        <p>The layout is responsive, so visitors can comfortably view it on their phones.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div>
+    <img src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=1100&q=85" alt="hospital building">
+  </div>
+  <div>
+    <h2>the rise hospital</h2>
+    <p>This demo is built around the information available for The Rise Hospital in Purani Poonch, Poonch, with a clean healthcare-focused design.</p>
+    <div class="rating"><span class="star">4.6 ★</span><strong>27 ratings</strong></div>
+  </div>
+</section>
+
+<section class="location" id="location">
+  <div class="locationBox">
+    <div>
+      <h2>visit the rise hospital</h2>
+      <p>beside tata showroom, near kanuyain, purani, poonch-185101, jammu and kashmir</p>
+    </div>
+    <a class="mapbtn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Beside%20Tata%20Showroom%2C%20Near%20Kanuyain%2C%20Purani%2C%20Poonch-185101%2C%20Jammu%20And%20Kashmir">get directions</a>
+  </div>
+</section>
+
+<footer>the rise hospital • purani poonch, poonch</footer>
+</body>
+</html>
